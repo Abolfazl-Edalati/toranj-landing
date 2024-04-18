@@ -16,6 +16,10 @@ export default {
         neutral: "#fff",
         "neutral-tint": "#F3F3F3",
       },
+      borderColor: {
+        accent: "#183D3D",
+        neutral: "#A7D397",
+      },
       padding: {
         normal: "12px 24px",
       },
