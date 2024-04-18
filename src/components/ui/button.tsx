@@ -6,13 +6,13 @@ const style = cva("no-underline text-[15px] font-normal text-white", {
   variants: {
     variant: {
       accent:
-        "text-accent-primary bg-neutral p-normal rounded-xl border border-neutral transition-all duration-200 transi hover:bg-accent hover:text-accent-secondary",
+        "text-accent-primary bg-neutral p-normal rounded-xl border border-neutral transition-all duration-200 hover:bg-accent hover:text-accent-secondary",
       "text-only": "text-accent-secondary text-[16px]",
       neutral:
         "bg-accent border border-accent hover:bg-transparent hover:text-accent-primary",
     },
     svg: {
-      true: "flex justify-center items-center gap[10px]",
+      true: "flex justify-center items-center gap-4",
     },
   },
 });
