@@ -4,17 +4,50 @@
 
 @font-face {
   font-family: "Peyda";
-  src: url("./assets/font/PeydaFaNum-Regular.ttf") format("truetype"),
-    url("./assets/font/PeydaFaNum-Light.ttf") format("truetype"),
-    url("./assets/font/PeydaFaNum-ExtraLight.ttf") format("truetype"),
-    url("./assets/font/PeydaFaNum-Medium.ttf") format("truetype"),
-    url("./assets/font/PeydaFaNum-SemiBold.ttf") format("truetype"),
-    url("./assets/font/PeydaFaNum-Bold.ttf") format("truetype"),
-    url("./assets/font/PeydaFaNum-ExtraBold.ttf") format("truetype"),
-    url("./assets/font/PeydaFaNum-Black.ttf") format("truetype"),
-    url("PeydaFaNum-Regular.ttf") format("truetype");
-  font-weight: 100 900; /* شامل تمام وزن های فونت از 100 تا 900 */
-  font-style: normal;
+  src: url("./assets/font/PeydaFaNum-Regular.ttf") format("truetype");
+  font-weight: normal; /* وزن پیش فرض فونت */
+}
+
+@font-face {
+  font-family: "Peyda";
+  src: url("./assets/font/PeydaFaNum-Light.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Peyda";
+  src: url("./assets/font/PeydaFaNum-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Peyda";
+  src: url("./assets/font/PeydaFaNum-Medium.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Peyda";
+  src: url("./assets/font/PeydaFaNum-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Peyda";
+  src: url("./assets/font/PeydaFaNum-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Peyda";
+  src: url("./assets/font/PeydaFaNum-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Peyda";
+  src: url("./assets/font/PeydaFaNum-Black.ttf") format("truetype");
+  font-weight: 900;
 }
 
 html {
