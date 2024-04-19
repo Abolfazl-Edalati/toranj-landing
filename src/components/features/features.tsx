@@ -105,11 +105,11 @@ export default function Features() {
   ];
 
   return (
-    <div className="flex flex-col gap-16">
-      <span className="text-4xl text-accent font-bold text-center">
+    <div className="flex flex-col gap-16 max-[880px]:gap-10 max-[550px]:gap-6">
+      <span className="text-4xl text-accent font-bold text-center max-[880px]:text-3xl max-[550px]:text-2xl">
         امکانات و ویژگی ها
       </span>
-      <div className="grid grid-cols-4 gap-y-12">
+      <div className="grid grid-cols-4 gap-y-12 max-[1250px]:grid-cols-3 max-[1250px]:gap-y-10 max-[870px]:grid-cols-2 max-[550px]:gap-y-6 max-[550px]:grid-cols-1">
         {features.map((elm) => (
           <SingleFeature image={elm.image} title={elm.title} desc={elm.desc} />
         ))}
