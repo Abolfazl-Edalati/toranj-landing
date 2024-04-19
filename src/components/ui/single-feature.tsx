@@ -1,10 +1,8 @@
-export type FeatureProps = [
-  {
-    image: string;
-    title: string;
-    desc: string;
-  }
-];
+type Props = {
+  image: string;
+  title: string;
+  desc: string;
+};
 
 export default function SingleFeature({ image, title, desc }: Props) {
   return (
