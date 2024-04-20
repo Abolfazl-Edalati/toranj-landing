@@ -105,7 +105,7 @@ export default function Features() {
   ];
 
   return (
-    <div className="flex flex-col gap-16 max-[880px]:gap-10 max-[550px]:gap-6">
+    <div className="flex flex-col gap-16 mb-32 max-[970px]:mb-20 max-[880px]:gap-10 max-[620px]:mb-16 max-[550px]:gap-6">
       <span className="text-4xl text-accent font-bold text-center max-[880px]:text-3xl max-[550px]:text-2xl">
         امکانات و ویژگی ها
       </span>
