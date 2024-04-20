@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./global.css";
 import Features from "./components/features/features";
 import Header from "./components/header/header";
+import HeroSection from "./components/hero-section/heroSection";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -11,6 +12,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       {/* <Header /> */}
 
       {/* هیروسکشن */}
+      {/* <HeroSection
+        title="کامل‌ترین قالب رستوران و کافه "
+        slogan="با ترنج از اسنپ فود بی نیاز شو"
+      /> */}
 
       {/* ویژگی ها */}
       {/* <Features /> */}
