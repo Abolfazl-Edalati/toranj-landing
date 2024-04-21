@@ -16,7 +16,11 @@ export default function NoLicenseIsNeeded() {
           <span>همه چیز در همین نسخه وجود داره </span>
           <span>نیاز به پرداخت هیچ هزینه اضافه تری نیست</span>
         </div>
-        <Button variant={"accent"} className="row-start-1 row-end-3">
+        <Button
+          variant={"accent"}
+          className="row-start-1 row-end-3"
+          href="https://www.rtl-theme.com/toranj-wordpress-theme/"
+        >
           خرید ترنج
         </Button>
       </div>

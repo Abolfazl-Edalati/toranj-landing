@@ -17,6 +17,7 @@ export default function HeroSection({ title, slogan }: Props) {
           {slogan}
         </span>
         <Button
+          href="https://ezteam.ir/toranj"
           variant={"accent"}
           svg
           className="font-semibold gap-2 text-base text-nowrap mt-3 max-[1090px]:p-2 max-[1090px]:text-sm max-[1090px]:mt-0 max-[670px]:text-xs max-[670px]:p-1"
