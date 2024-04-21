@@ -2,41 +2,60 @@ import { cva, VariantProps } from "class-variance-authority";
 import Button from "./button";
 import generateClassName from "../generate-class-name";
 
-const style = cva(["text-[#4c4c4c]", "text-lg", "font-medium"], {
-  variants: {
-    varient: {
-      normal: "pt-2",
-      reversed: "pb-2",
+const style = cva(
+  [
+    "flex",
+    "flex-col",
+    "gap-3",
+    "justify-center",
+    "items-center",
+    "max-sm:gap-2",
+  ],
+  {
+    variants: {
+      varient: {
+        normal: "[&_span]:pt-2",
+        reversed: "[&_span]:pb-2 flex-col-reverse",
+      },
     },
-  },
-  defaultVariants: {
-    varient: "normal",
-  },
-});
+    compoundVariants: [
+      {
+        varient: "reversed",
+      },
+    ],
+    defaultVariants: {
+      varient: "normal",
+    },
+  }
+);
 
 type Props = {
   title: string;
   image: string;
   href: string;
+  className?: string;
 } & VariantProps<typeof style>;
 
-export default function SingleResturant({
+export default function SingleCustomer({
   title,
   image,
   href,
+  className,
   varient,
 }: Props) {
   return (
-    <div className="flex flex-col gap-3 justify-center items-center">
-      <div className="border-2 border-dashed border-accent rounded-[9999px]">
-        <img
-          src={image}
-          alt={title}
-          className="rounded-[9999px] w-24 h-24 m-2"
-        />
-      </div>
-      <span className={generateClassName(style({ varient }))}>
-        رستوران {title}
+    <div className={generateClassName(style({ varient, className }))}>
+      <img
+        src={image}
+        alt={title}
+        className="border-2 border-dashed border-accent rounded-[9999px] w-28 h-28 p-2"
+      />
+      <span
+        className={generateClassName(
+          "text-[#4c4c4c] text-lg font-medium max-sm:text-sm"
+        )}
+      >
+        {title}
       </span>
       <Button
         variant={"text-only"}

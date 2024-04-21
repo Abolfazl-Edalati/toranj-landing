@@ -5,6 +5,7 @@ import Features from "./components/features/features";
 import Header from "./components/header/header";
 import HeroSection from "./components/hero-section/heroSection";
 import NoLicenseIsNeeded from "./components/no-trial/no-license-is-needed";
+import Customers from "./components/customers/customers";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       {/* دمو های ترنج */}
 
       {/* مشتریان قالب ترنج */}
+      <Customers />
 
       {/* بدون نیاز به تمدید سالانه */}
       {/* <NoLicenseIsNeeded /> */}
