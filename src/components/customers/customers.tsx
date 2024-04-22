@@ -1,4 +1,4 @@
-import SingleCustomer from "../ui/single-customer";
+import SingleCustomer from "./single-customer";
 
 export default function Customers() {
   const customers = [

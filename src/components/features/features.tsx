@@ -1,4 +1,4 @@
-import SingleFeature from "../ui/single-feature";
+import SingleFeature from "./single-feature";
 
 export default function Features() {
   const features = [
