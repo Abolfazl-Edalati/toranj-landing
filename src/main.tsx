@@ -6,6 +6,8 @@ import Header from "./components/header/header";
 import HeroSection from "./components/hero-section/heroSection";
 import NoLicenseIsNeeded from "./components/no-trial/no-license-is-needed";
 import Customers from "./components/customers/customers";
+import SingleAccordion from "./components/accordion/single-accordion";
+import Accordion from "./components/accordion/accordion";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -25,16 +27,15 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       {/* دمو های ترنج */}
 
       {/* مشتریان قالب ترنج */}
-      <Customers />
+      {/* <Customers /> */}
 
       {/* بدون نیاز به تمدید سالانه */}
       {/* <NoLicenseIsNeeded /> */}
 
       {/* اموزش قالب */}
 
-      {/* فرم */}
-
       {/* سوالات متداول */}
+      {/* <Accordion /> */}
 
       {/* فوتر */}
     </div>
