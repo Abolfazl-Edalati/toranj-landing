@@ -6,8 +6,8 @@ import Header from "./components/header/header";
 import HeroSection from "./components/hero-section/heroSection";
 import NoLicenseIsNeeded from "./components/no-trial/no-license-is-needed";
 import Customers from "./components/customers/customers";
-import SingleAccordion from "./components/accordion/single-accordion";
 import Accordion from "./components/accordion/accordion";
+import Footer from "./components/footer/footer";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -38,6 +38,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       {/* <Accordion /> */}
 
       {/* فوتر */}
+      <Footer />
     </div>
   </React.StrictMode>
 );
