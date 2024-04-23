@@ -5,52 +5,52 @@ export default function Features() {
     {
       image: "/assets/svg/features/transport.svg",
       title: "روش‌های اختصاصی حمل و نقل",
-      desc: "پیک، تحویل حضوری ، ",
+      desc: "پیک، تحویل حضوری ،حاضر در رستوران",
     },
     {
       image: "/assets/svg/features/current-order-status.svg",
       title: "وضعیت فعلی سفارش شما",
-      desc: "پیک، تحویل حضوری ، ",
+      desc: "پیک در راه , در حال آماده سازی , تحویل داده شد",
     },
     {
       image: "/assets/svg/features/pishnahadat-afzodani.svg",
       title: "پیشنهادات افزودنی",
-      desc: "پیک، تحویل حضوری ، ",
+      desc: "نوشابه , خورشت ماست , دلستر و ...",
     },
     {
       image: "/assets/svg/features/emkan-sabt-chand-address.svg",
       title: "امکان ثبت چند آدرس",
-      desc: "پیک، تحویل حضوری ، ",
+      desc: "لیستی از آدرس هایی که مقصد های شما هست .",
     },
     {
       image: "/assets/svg/features/vorod-sarie.svg",
       title: "ورود سریع",
-      desc: "پیک، تحویل حضوری ، ",
+      desc: "ورورد و ثبت نام فقط با یک شماره موبایل",
     },
     {
       image: "/assets/svg/features/time.svg",
       title: "وضعیت بازو بسته بودن رستوران",
-      desc: "تعیین دقیق ساعات باز بودن رستوران",
+      desc: "تایین ساعات کاری و روز های تعطیل",
     },
     {
       image: "/assets/svg/features/other-branches.svg",
       title: "نمایش نمایندگی های رستوران",
-      desc: "تعیین دقیق ساعات باز بودن رستوران",
+      desc: "نمایندگی های دیگرتون رو به نمایش بگذارید.",
     },
     {
       image: "/assets/svg/features/namayesh-sefareshat-faal.svg",
       title: "نمایش سفارش فعال",
-      desc: "تعیین دقیق ساعات باز بودن رستوران",
+      desc: "دسترسی سریع کاربر به سفارش در حال تحویل",
     },
     {
       image: "/assets/svg/features/etelaat-resturant.svg",
       title: "اطلاعات رستوران",
-      desc: "تعیین دقیق ساعات باز بودن رستوران",
+      desc: "لوکیشن , شماره های تماس و ...",
     },
     {
       image: "/assets/svg/features/pishnahad-sarashpaz.svg",
       title: "پیشنهاد سر آشپز",
-      desc: "تعیین دقیق ساعات باز بودن رستوران",
+      desc: "پیشنهاد غذای روز , دسر های روز و ...",
     },
     {
       image: "/assets/svg/features/location.svg",
@@ -60,32 +60,32 @@ export default function Features() {
     {
       image: "/assets/svg/features/QR-code.svg",
       title: "اسکن از روی میز",
-      desc: "پر کردن خودکار فیلد آدرس شما",
+      desc: "اسکن کن سفارش بده !",
     },
     {
       image: "/assets/svg/features/sefaresh-dobare.svg",
       title: "سفارش دوباره",
-      desc: "پر کردن خودکار فیلد آدرس شما",
+      desc: "خیلی سریع با یک دکمه سفارش های قبلیتو سفارش بده !",
     },
     {
       image: "/assets/svg/features/hazine-baste-bandi.svg",
       title: "هزینه بسته بندی",
-      desc: "پر کردن خودکار فیلد آدرس شما",
+      desc: "تعیین هزینه دسته بندی",
     },
     {
       image: "/assets/svg/features/takhfifat-emroz.svg",
       title: "تخفیفات امروز",
-      desc: "پر کردن خودکار فیلد آدرس شما",
+      desc: "تخفیف های امروز رو به مشتری هات پیشنهاد بده !",
     },
     {
       image: "/assets/svg/features/order-time.svg",
-      title: "تخفیفات امروزساعت تحویل سفارش",
+      title: "ساعت تحویل سفارش",
       desc: "محاسبه خودکار زمان تحویل سفارش",
     },
     {
       image: "/assets/svg/features/namayesh-sefareshat-shoma.svg",
       title: "نمایش سفارشات شما",
-      desc: "محاسبه خودکار زمان تحویل سفارش",
+      desc: "زمان باقی مانده , سفارشات فعلی , سفارشات تکمیل شده",
     },
     {
       image: "/assets/svg/features/chand-sabk-herosection.svg",
@@ -95,12 +95,12 @@ export default function Features() {
     {
       image: "/assets/svg/features/entekhab-ravesh-pardakht.svg",
       title: "انتخاب روش پرداخت",
-      desc: "محاسبه خودکار زمان تحویل سفارش",
+      desc: "انتخاب روش پرداخت به دو روش آنلاین و پرداخت در محل",
     },
     {
       image: "/assets/svg/features/chand-noe-sabk-namayesh.svg",
       title: "چند نوع سبک نمایش",
-      desc: "محاسبه خودکار زمان تحویل سفارش",
+      desc: "تنوع بالا در نمایش محصولات شما",
     },
   ];
 
