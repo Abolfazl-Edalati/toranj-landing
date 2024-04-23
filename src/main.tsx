@@ -38,7 +38,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       {/* <Accordion /> */}
 
       {/* فوتر */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   </React.StrictMode>
 );
