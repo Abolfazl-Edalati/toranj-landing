@@ -36,7 +36,9 @@ export default function Header() {
         id="header-logo"
         className="flex justify-center items-center gap-3 max-[490px]:gap-1"
       >
-        <span className="text-white text-2xl max-[620px]:text-xl">ترنج</span>
+        <span className="text-white font-bold text-2xl max-[620px]:text-xl">
+          ترنج
+        </span>
         <img
           src="/assets/svg/logo.svg"
           className="max-[620px]:w-10 max-[620px]:h-10 max-[490px]:h-8 max-[490px]:w-8"
