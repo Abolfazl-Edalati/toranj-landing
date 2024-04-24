@@ -4,17 +4,17 @@ export default function Customers() {
   const customers = [
     {
       title: "کافه رستوران دف",
-      image: "/assets/svg/customer-1.svg",
+      image: "/assets/svg/customers/customer-1.svg",
       href: "#",
     },
     {
       title: "رستوران شاهرود فود",
-      image: "/assets/svg/customer-2.svg",
+      image: "/assets/svg/customers/customer-2.svg",
       href: "#",
     },
     {
       title: "رستوران ردی منو",
-      image: "/assets/svg/customer-3.svg",
+      image: "/assets/svg/customers/customer-3.svg",
       href: "#",
     },
   ];
