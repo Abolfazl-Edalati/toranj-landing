@@ -23,9 +23,9 @@ export default {
       padding: {
         normal: "12px 24px",
       },
-    },
-    borderRadius: {
-      xl: "8px",
+      borderRadius: {
+        xl: "8px",
+      },
     },
   },
   plugins: [],

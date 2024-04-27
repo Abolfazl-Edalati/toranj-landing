@@ -3,18 +3,23 @@ import SingleCustomer from "./single-customer";
 export default function Customers() {
   const customers = [
     {
-      title: "کافه رستوران دف",
-      image: "/assets/svg/customers/customer-1.svg",
+      title: "مشتری اول",
+      image: "/assets/svg/customers/image-1.png",
       href: "#",
     },
     {
-      title: "رستوران شاهرود فود",
-      image: "/assets/svg/customers/customer-2.svg",
+      title: "مشتری دوم",
+      image: "/assets/svg/customers/image-2.png",
       href: "#",
     },
     {
-      title: "رستوران ردی منو",
-      image: "/assets/svg/customers/customer-3.svg",
+      title: "مشتری سوم",
+      image: "/assets/svg/customers/image-3.png",
+      href: "#",
+    },
+    {
+      title: "مشتری چهارم",
+      image: "/assets/svg/customers/image-4.png",
       href: "#",
     },
   ];
