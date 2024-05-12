@@ -44,6 +44,7 @@ export default function Accordion() {
       <div className="flex flex-col gap-4">
         {accordionContent.map((a, index) => (
           <SingleAccordion
+            key={index}
             question={a.question}
             answer={a.answer}
             index={index + 1}

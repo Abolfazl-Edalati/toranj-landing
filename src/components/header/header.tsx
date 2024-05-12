@@ -2,10 +2,10 @@ import Button from "../ui/button";
 
 export default function Header() {
   const menuButtons = [
-    { title: "امکانات و ویژگی ها", link: "#" },
-    { title: "درباره اپلیکیشن", link: "#" },
-    { title: "مشاهده دموها", link: "https://ezteam.ir/toranj/" },
-    { title: "درباره ترنج", link: "#" },
+    { title: "امکانات و ویژگی ها", link: "#", elm: "#features" },
+    { title: "مشتریان ترنج", link: "#", elm: "#customers" },
+    { title: "مشاهده دموها", link: "#", elm: "#demos" },
+    { title: "درباره ترنج", link: "#", elm: "" },
   ];
 
   return (
@@ -18,7 +18,6 @@ export default function Header() {
         href="https://www.rtl-theme.com/toranj-wordpress-theme/"
         variant={"accent"}
         className="max-[620px]:text-[0.875rem] max-[620px]:p-2 max-[490px]:p-1"
-        svg
       >
         خرید قالب ترنج
       </Button>
@@ -27,7 +26,7 @@ export default function Header() {
         className="flex justify-between items-center gap-9 max-[970px]:hidden"
       >
         {menuButtons.map((btn, index) => (
-          <Button key={index} href={btn.link}>
+          <Button key={index} href={btn.elm}>
             {btn.title}
           </Button>
         ))}
@@ -40,7 +39,7 @@ export default function Header() {
           ترنج
         </span>
         <img
-          src="/assets/svg/logo.svg"
+          src="./assets/svg/logo.svg"
           className="max-[620px]:w-10 max-[620px]:h-10 max-[490px]:h-8 max-[490px]:w-8"
           alt=""
         />

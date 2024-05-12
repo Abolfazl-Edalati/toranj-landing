@@ -4,7 +4,7 @@ export default function NoLicenseIsNeeded() {
   return (
     <div className="relative overflow-hidden bg-accent rounded-[1.875rem] mb-32 before:absolute before:translate-y-[2.25rem] before:rounded-[1rem] before:bg-accent/20 before:inset-[1.75rem] before:-z-10 max-[970px]:mb-20 max-[620px]:mb-16 max-[460px]:before:inset-[1.5rem] max-[460px]:before:translate-y-[1.75rem]">
       <img
-        src="/assets/svg/no-license.svg"
+        src="./assets/svg/no-license.svg"
         alt="no trial is needed"
         className="absolute left-0 top-0 bottom-0 right-0 h-full object-cover"
       />

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col relative gap-11 py-9 rounded-[30px] mt-10 bg-accent before:absolute before:translate-y-[-1.25rem] before:rounded-[1rem] before:bg-[#79ACAC8F] before:inset-[0.625rem] before:-z-20 max-[768px]:gap-4">
       <img
-        src="/assets/svg/footer.svg"
+        src="./assets/svg/footer.svg"
         alt=""
         className="absolute left-0 top-0 right-0 bottom-0 pointer-events-none"
       />
@@ -16,7 +16,7 @@ export default function Footer() {
           ترنــــــج
         </span>
         <img
-          src="/assets/svg/logo.svg"
+          src="./assets/svg/logo.svg"
           className="max-[620px]:w-10 max-[620px]:h-10 max-[490px]:h-8 max-[490px]:w-8"
           alt=""
         />

@@ -8,12 +8,11 @@ import NoLicenseIsNeeded from "./components/no-trial/no-license-is-needed";
 import Customers from "./components/customers/customers";
 import Accordion from "./components/accordion/accordion";
 import Footer from "./components/footer/footer";
-import SingleDemo from "./components/demos/single-demo";
 import Demos from "./components/demos/demos";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <div className="px-[72px] max-[970px]:px-14 max-[620px]:px-10 max-[490px]:px-5">
+    <div className="my-10 px-[72px] max-[970px]:px-14 max-[620px]:px-10 max-[490px]:px-5">
       {/* هدر */}
       <Header />
 

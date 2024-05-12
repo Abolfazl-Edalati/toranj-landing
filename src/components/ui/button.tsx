@@ -25,11 +25,13 @@ export default function Button({
   href,
   variant,
   svg,
+  onClick,
 }: Props) {
   return (
     <a
       href={href}
       className={generateClassName(style({ variant, svg, className }))}
+      onClick={onClick}
     >
       {children}
     </a>

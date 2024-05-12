@@ -4,28 +4,31 @@ export default function Customers() {
   const customers = [
     {
       title: "مشتری اول",
-      image: "/assets/svg/customers/image-1.png",
+      image: "./assets/svg/customers/image-1.png",
       href: "#",
     },
     {
       title: "مشتری دوم",
-      image: "/assets/svg/customers/image-2.png",
+      image: "./assets/svg/customers/image-2.png",
       href: "#",
     },
     {
       title: "مشتری سوم",
-      image: "/assets/svg/customers/image-3.png",
+      image: "./assets/svg/customers/image-3.png",
       href: "#",
     },
     {
       title: "مشتری چهارم",
-      image: "/assets/svg/customers/image-4.png",
+      image: "./assets/svg/customers/image-4.png",
       href: "#",
     },
   ];
 
   return (
-    <div className="flex flex-col gap-16 mb-32 max-[970px]:mb-20 max-[880px]:gap-10 max-[620px]:mb-16 max-[550px]:gap-6">
+    <div
+      id="customers"
+      className="flex flex-col gap-16 mb-32 max-[970px]:mb-20 max-[880px]:gap-10 max-[620px]:mb-16 max-[550px]:gap-6"
+    >
       <span className="text-4xl text-accent font-bold text-center max-[880px]:text-3xl max-[550px]:text-2xl">
         مشتریان قالب رستوران و کافه ترنج
       </span>

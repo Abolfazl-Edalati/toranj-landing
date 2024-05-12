@@ -90,3 +90,8 @@ html {
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
